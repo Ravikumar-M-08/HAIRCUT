@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>HAIRCUT</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+    integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="stylesheet" href="./bootstrap.min.css">
+  <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+  <nav class="navbar navbar-expand-md">
+    <div class="container-fluid navbar_menu">
+      <a class="navbar-brand" href="#">HAIRCUT</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup"
+        aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+        <i class="fa-solid fa-bars"></i> </button>
+      <div class="collapse navbar-collapse " id="navbarNavAltMarkup">
+        <ul class="nav_bar">
+          <li><a href="./index.html" >Home</a></li>
+          <li><a href="./about.html" class="active">About</a></li>
+          <li><a href="./services.html">Services</a></li>
+          <li><a href="./contact.html">Contact</a></li>
+          <li><span onclick="getappoint()">Appointment</span></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+  <div class="container-fluid">
+    <div class="row">
+      <div class="page_top">
+        <div>
+          <h2>ABOUT</h2>
+          <p>HOME / <span class="active">ABOUT</span></p>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="container ">
+    <div class="row">
+      <div class="col-lg-6 col-md-6 col-12 ">
+        <div class="about_section mt-5">
+          <div class="about">
+            <img src="./assets/about.jpg" alt="" width="100%">
+
+          </div>
+        </div>
+
+      </div>
+      <div class="col-lg-6 col-md-6 col-12 mt-5">
+        <span class="name_of_section ">
+          ABOUT US
+        </span>
+        <h2 class="content mt-3">MORE THAN JUST A HAIRCUT. LEARN MORE ABOUT US!</h2>
+        <p>Our team of skilled barbers and stylists are not just experts in their craft; they’re passionate about
+          helping you express your personality through your style. We use only the finest products to ensure that every
+          cut, shave, and style is executed with precision and care.</p>
+        <p>Whether you're here for a quick touch-up or a complete transformation, [Salon Name] offers a professional,
+          yet welcoming atmosphere where you can truly unwind and enjoy the art of grooming.</p>
+      </div>
+    </div>
+  </div>
+
+  <div class="container">
+    <div class="row text-center mt-5">
+      <div>
+        <span class="name_of_section">
+          Our Barber
+        </span>
+        <h3 class="content mt-3">MEET OUR BARBER</h3>
+      </div>
+    </div>
+    <div class="row text-center">
+      <div class="col-lg-4 col-md-6 col-12">
+        <div>
+          <div class="barber">
+            <img src="./assets/team-3.jpg" alt="" width="100%">
+            <div class="barber_contact">
+              <a href="#">
+                <span class="fa-brands fa-facebook"></span>
+              </a>
+              <a href="#">
+                <span class="fa-brands fa-x-twitter"></span>
+              </a>
+              <a href="#">
+                <span class="fa-brands fa-instagram"></span>
+              </a>
+            </div>
+          </div>
+          <div class="designation">
+            <h4>JOHN DOE</h4>
+            <span>chennai</span>
+          </div>
+        </div>
+
+      </div>
+      <div class="col-lg-4 col-md-6 col-12">
+        <div>
+          <div class="barber">
+            <img src="./assets/team-2.jpg" alt="" width="100%">
+            <div class="barber_contact">
+              <a href="#">
+                <span class="fa-brands fa-facebook"></span>
+              </a>
+              <a href="#">
+                <span class="fa-brands fa-x-twitter"></span>
+              </a>
+              <a href="#">
+                <span class="fa-brands fa-instagram"></span>
+              </a>
+            </div>
+          </div>
+          <div class="designation">
+            <h4>Peter</h4>
+            <span>chennai</span>
+          </div>
+        </div>
+
+      </div>
+      <div class="col-lg-4 col-md-6 col-12">
+        <div>
+          <div class="barber">
+            <img src="./assets/team-4.jpg" alt="" width="100%">
+            <div class="barber_contact">
+              <a href="#">
+                <span class="fa-brands fa-facebook"></span>
+              </a>
+              <a href="#">
+                <span class="fa-brands fa-x-twitter"></span>
+              </a>
+              <a href="#">
+                <span class="fa-brands fa-instagram"></span>
+              </a>
+            </div>
+          </div>
+          <div class="designation">
+            <h4>Heman</h4>
+            <span>chennai</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <footer class="mt-5">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-4 col-md-6 col-12 mt-4">
+          <div>
+            <h3 class="footer_content">GET IN TOUCH</h3>
+            <div class="footer_address mt-3"><span class="fa-solid fa-location-dot"></span>
+              <p>Chennai,TN</p>
+            </div>
+            <div class="footer_address mt-3"><span class="fa-solid fa-phone"></span>
+              <p>123456789</p>
+            </div>
+            <div class="footer_address mt-3"><span class="fa-solid fa-envelope"></span>
+              <p>haircut@gmail.com</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4 col-md-6 col-12 mt-4">
+          <div class="quick_links">
+            <h3 class="footer_content">QUICK LINKS</h3>
+            <ul>
+              <li><a href="">About Us</a></li>
+              <li><a href="">Contact Us</a></li>
+              <li><a href="">Our Services</a></li>
+              <li><a href="">Terms & Condition</a></li>
+              <li><a href="">Support</a></li>
+            </ul>
+          </div>
+        </div>
+        <div class="col-lg-4 col-md-6 col-12 mt-4">
+          <div>
+            <h3 class="footer_content">NEWSLETTER</h3>
+            <div class="newsletter">
+              <input type="email" name="" id="" placeholder="Enter Email">
+              <input type="submit" value="Sign Up">
+            </div>
+          </div>
+        </div>
+        <hr class="mt-2">
+        <p class="text-center">&#169;All Rights Reserved.<span class="name_of_section">HAIRCUT<span></span></p>
+      </div>
+    </div>
+  </footer>
+  <div class="appoint_container" id="getappointment">
+    <span class="fa-solid fa-close" onclick="close_appointment()"></span>
+    <div class="appointment-container" id="booking-container">
+      <h1>Book Your Appointment</h1>
+      <form id="appointment-form">
+        <div class="form-group">
+          <label for="name">Name:</label>
+          <input type="text" id="name" name="name" required>
+        </div>
+        <div class="form-group">
+          <label for="email">Email:</label>
+          <input type="email" id="email" name="email" required>
+        </div>
+        <div class="form-group">
+          <label for="date">Date:</label>
+          <input type="date" id="date" name="date" required>
+        </div>
+        <div class="form-group">
+          <label for="time">Time:</label>
+          <input type="time" id="time" name="time" required>
+        </div>
+        <button type="submit">Book Appointment</button>
+      </form>
+      <div id="message"></div>
+    </div>
+  </div>
+  <script src="./bootstrap.bundle.min.js"></script>
+  <script src="./script.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+    integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>HAIRCUT</title>
+  <link rel="stylesheet" href="./bootstrap.min.css">
+  <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+  <nav class="navbar navbar-expand-md">
+    <div class="container-fluid navbar_menu">
+      <a class="navbar-brand" href="#">HAIRCUT</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup"
+        aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+        <i class="fa-solid fa-bars"></i> </button>
+      <div class="collapse navbar-collapse " id="navbarNavAltMarkup">
+        <ul class="nav_bar">
+          <li><a href="./index.html" >Home</a></li>
+          <li><a href="./about.html">About</a></li>
+          <li><a href="./services.html" class="active">Services</a></li>
+          <li><a href="./contact.html" >Contact</a></li>
+          <li><span onclick="getappoint()">Appointment</span></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+  <div class="container-fluid">
+    <div class="row">
+      <div class="page_top">
+        <div class="text-center">
+          <h2>SERVICES</h2>
+          <p>HOME / <span class="active">SERVICES</span></p>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="container">
+    <div class="row text-center mt-5">
+      <div>
+        <span class="name_of_section">
+          SERVICES
+        </span>
+        <h2 class="content mt-3">WHAT WE PROVIDE</h2>
+      </div>
+    </div>
+
+    <div class="row">
+      <div class="col-lg-4 col-md-6 col-12">
+        <div class="services">
+          <h3 class="">HAIRCUT</h3>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Non aut aperiam inventore laboriosam beatae .</p>
+          <span class="price">FROM 240</span>
+          <span class="plus">+</span>
+          <img src="./assets/haircut.png" alt="">
+        </div>
+      </div>
+      <div class="col-lg-4 col-md-6 col-12">
+        <div class="services">
+          <h3 class="">BEARD TRIM</h3>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Non aut aperiam inventore laboriosam beatae .</p>
+          <span class="price">FROM 240</span>
+          <span class="plus">+</span>
+          <img src="./assets/beard-trim.png" alt="">
+        </div>
+      </div>
+      <div class="col-lg-4 col-md-6 col-12">
+        <div class="services">
+          <h3 class="">MANS SHAVE</h3>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Non aut aperiam inventore laboriosam beatae .</p>
+          <span class="price">FROM 240</span>
+          <span class="plus">+</span>
+          <img src="./assets/mans-shave.png" alt="">
+        </div>
+      </div>
+      <div class="col-lg-4 col-md-6 col-12">
+        <div class="services">
+          <h3 class="">HAIR DYEING</h3>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Non aut aperiam inventore laboriosam beatae .</p>
+          <span class="price">FROM 240</span>
+          <span class="plus">+</span>
+          <img src="./assets/hair-dyeing.png" alt="">
+        </div>
+      </div>
+      <div class="col-lg-4 col-md-6 col-12">
+        <div class="services">
+          <h3 class="">MUSTACHE</h3>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Non aut aperiam inventore laboriosam beatae .</p>
+          <span class="price">FROM 240</span>
+          <span class="plus">+</span>
+          <img src="./assets/mustache.png" alt="">
+        </div>
+      </div>
+      <div class="col-lg-4 col-md-6 col-12">
+        <div class="services">
+          <h3 class="">STACKING</h3>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Non aut aperiam inventore laboriosam beatae .</p>
+          <span class="price">FROM 240</span>
+          <span class="plus">+</span>
+          <img src="./assets/stacking.png" alt="">
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <footer class="mt-4">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-4 col-md-6 col-12 mt-4">
+          <div>
+            <h3 class="footer_content">GET IN TOUCH</h3>
+            <div class="footer_address mt-3"><span class="fa-solid fa-location-dot"></span>
+              <p>Chennai,TN</p>
+            </div>
+            <div class="footer_address mt-3"><span class="fa-solid fa-phone"></span>
+              <p>123456789</p>
+            </div>
+            <div class="footer_address mt-3"><span class="fa-solid fa-envelope"></span>
+              <p>haircut@gmail.com</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4 col-md-6 col-12 mt-4">
+          <div class="quick_links">
+            <h3 class="footer_content">QUICK LINKS</h3>
+            <ul>
+              <li><a href="">About Us</a></li>
+              <li><a href="">Contact Us</a></li>
+              <li><a href="">Our Services</a></li>
+              <li><a href="">Terms & Condition</a></li>
+              <li><a href="">Support</a></li>
+            </ul>
+          </div>
+        </div>
+        <div class="col-lg-4 col-md-6 col-12 mt-4">
+          <div>
+            <h3 class="footer_content">NEWSLETTER</h3>
+            <div class="newsletter">
+              <input type="email" name="" id="" placeholder="Enter Email">
+              <input type="submit" value="Sign Up">
+            </div>
+          </div>
+        </div>
+        <hr class="mt-2">
+        <p class="text-center">&#169;All Rights Reserved.<span class="name_of_section">HAIRCUT<span></span></p>
+      </div>
+    </div>
+    
+  </footer>
+  <div class="appoint_container" id="getappointment">
+    <span class="fa-solid fa-close" onclick="close_appointment()"></span>
+    <div class="appointment-container" id="booking-container">
+      <h1>Book Your Appointment</h1>
+      <form id="appointment-form">
+        <div class="form-group">
+          <label for="name">Name:</label>
+          <input type="text" id="name" name="name" required>
+        </div>
+        <div class="form-group">
+          <label for="email">Email:</label>
+          <input type="email" id="email" name="email" required>
+        </div>
+        <div class="form-group">
+          <label for="date">Date:</label>
+          <input type="date" id="date" name="date" required>
+        </div>
+        <div class="form-group">
+          <label for="time">Time:</label>
+          <input type="time" id="time" name="time" required>
+        </div>
+        <button type="submit">Book Appointment</button>
+      </form>
+      <div id="message"></div>
+    </div>
+  </div>
+  <script src="./bootstrap.bundle.min.js"></script>
+  <script src="./script.js"></script>
+</body>
+
+</html>

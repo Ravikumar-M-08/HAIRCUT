@@ -1,0 +1,38 @@
+* {
+    box-sizing: border-box;
+    padding: 0px;
+    margin: 0px;
+}
+
+body {
+    background-color: #000;
+    color: #fff;
+}
+form{
+    float: right;
+}
+input{
+    padding: 5px 10px;
+    background-color: #FF0000;
+    outline: none;
+    border: none;
+    margin: 10px;
+}
+/* table */
+
+table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+}
+
+td,
+th {
+    border: 1px solid #FF0000;
+    text-align: left;
+    padding: 8px;
+}
+
+/* tr:nth-child(even) {
+    background-color: #;
+  } */
